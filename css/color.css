@@ -1,0 +1,19 @@
+:root {
+    --clr-black: #000000;
+    --clr-white: #ffffff;
+    --clr-red: #E32A33;
+    --clr-red-hover: #AC0008;
+    --clr-blue: #5C9CC7;
+    --clr-deep-blue: #1941FF;
+    --clr-dark-blue: #26374D;
+    --clr-light-gray: #E3E3E3;
+    --clr-pink: #E64583;
+    --clr-buble: #FF6769;
+    --clr-green: #4FA252;
+    --clr-grass: #3EC382;
+    --clr-yellow: #FED100;
+    --clr-footer-number: #B70714;
+    --clr-footer-drive: #FC0017;
+    --clr-footer-vk: #0077FF;
+    --clr-btn-hover: #D8D8D8
+}

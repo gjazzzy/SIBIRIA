@@ -1,0 +1,140 @@
+.buy__wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.buy__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.buy-page .search-form__input {
+    width: 100%;
+    padding: 12px 40px 12px 12px;
+    position: relative;
+    background: transparent;
+    outline: none;
+    background: var(--clr-white);
+    border: 2px solid var(--clr-dark-blue);
+    border-radius: 6px;
+    color: var(--clr-black);
+    font-family: var(--font-BigBang);
+    font-size: var(--fs-24-18-16);
+}
+
+.buy-page .search-form__input::placeholder {
+    color: var(--clr-dark-blue);
+}
+
+.buy-page section {
+    margin: 0 0 40px 0;
+}
+
+.buy__bottom {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+    flex-direction: row;
+}
+
+.buy__button {
+    font-size: var(--fs-buy-button);
+    white-space: nowrap;
+    text-transform: uppercase;
+    background: var(--clr-dark-blue);
+    color: var(--clr-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    padding: 13px 27px;
+}
+
+.buy__top .search-form,
+.buy__bottom .buy__map {
+    width: 100%;
+    max-width: 655px;
+    margin: 0;
+}
+
+.buy__map-iframe {
+    width: 100%;
+    height: 100%;
+    max-height: 495px;
+    display: block;
+}
+
+.buy__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: 100%;
+    max-height: 495px;
+    overflow-y: auto;
+}
+
+.buy__cards::-webkit-scrollbar {
+    width: 2px;
+    height: 1px;
+    border-radius: 5px;
+}
+
+.buy__cards::-webkit-scrollbar-thumb {
+    background: linear-gradient( to bottom, var(--clr-dark-blue) 0px, var(--clr-dark-blue) 34px, transparent 34px, transparent 100%);
+    border-radius: 5px;
+}
+
+.buy__card {
+    padding: 20px 40px;
+    background: var(--clr-light-gray);
+    font-size: var(--fs-12);
+    border-radius: 10px;
+    height: fit-content;
+    margin-right: 3px;
+}
+
+.buy__role {
+    margin-bottom: 6px;
+}
+
+.buy__name {
+    margin-bottom: 14px;
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-18);
+}
+
+.buy__address {
+    margin-bottom: 20px;
+}
+
+.buy__contacts-box {
+    margin-bottom: 16px;
+}
+
+.buy__contacts-subname {
+    margin-bottom: 6px;
+}
+
+.buy__contacts-email {
+    margin-right: 20px;
+}
+
+.buy__contacts-phone {
+    white-space: nowrap;
+}
+
+.buy__card-button {
+    font-size: var(--fs-12);
+    padding: 5px;
+    background: var(--clr-white);
+    border-radius: 4px;
+}
+
+.buy__card-button:hover {
+    background: var(--clr-dark-blue);
+    color: var(--clr-white);
+}
